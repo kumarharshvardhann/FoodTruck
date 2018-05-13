@@ -1,0 +1,95 @@
+
+ .topnav{
+	overflow: hidden;
+	background-color: white;
+
+}
+
+.topnav a{
+	font-family: Artifika;
+	float: right;
+	display: block;
+	padding: 10px 10px;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	box-shadow: inset 0 0 0 0 #ff9900;
+	transition: all ease 1s;
+}
+
+@font-face {
+	font-family: Artifika;
+	src: url(https://www.fontsquirrel.com/fonts/BlackJack);
+}
+
+.topnav a:hover{
+	background-color: #ff9900;
+	box-shadow: inset 200px 0 0 0 #ff9900;
+	cursor: pointer;
+	color:  #ffffff;
+}
+
+
+body {
+	background-image: url("/home/nishu/Desktop/foodtruck/images/wmap.jpg");
+	background-size: cover;
+}
+
+div {
+	background-size:cover;
+}
+
+table{
+	padding-top: 20%;
+	padding-right: 5%;
+}
+
+#indian{
+	border-radius: 100% 0 0 100%;
+	box-shadow: inset 0 0 0 0 black ;
+	color: white;
+	background-size: cover;
+	background-image: url("/home/nishu/Desktop/foodtruck/images/punjabi.jpg");
+}
+
+#mexican{
+	border-radius: 100% 0 0 100%;
+	box-shadow: inset 0 0 0 0 black ;
+	color: white;
+	background-size: cover;
+	background-image: url("/home/nishu/Desktop/foodtruck/images/mexican.jpg");
+}
+
+#chinese{
+	border-radius: 0 100% 100% 0;
+	box-shadow: inset 0 0 0 0 black;
+	color: white;
+	background-size: cover;
+	background-image: url("/home/nishu/Desktop/foodtruck/images/cf.jpg");
+}
+
+#italian{
+	border-radius: 0 100% 100% 0;
+	box-shadow: inset 0 0 0 0 black;
+	color: white;
+	background-size: cover;
+	background-image: url("/home/nishu/Desktop/foodtruck/images/pizza.jpg");
+}
+
+
+	.wmp{
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	position: relative;
+	box-shadow: 3px 3px red, -1em 0 0.4em olive;
+	transition: 0.6s ease-in-out;
+	text-align: center;
+	font-style: oblique;
+}
+
+.wmp:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 15px rgba(255,70,55,0.5);
+	cursor: pointer;
+}

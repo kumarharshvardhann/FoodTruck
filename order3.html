@@ -1,0 +1,33 @@
+<!-- Generating Order ID on confirmation; Redirecting to home page !-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order ID</title>
+<link rel="stylesheet" type="text/css" href="/home/nishu/Desktop/foodtruck/images/ord.css">
+</head>
+<body onload="CustomerID();">
+	<div class="topnav" id="tpnav" >
+		KHAUgali
+		<a href="order.html">Order Now</a>
+		<a href="contact.html">Contact Us</a>
+		<a href="about.html">About Us</a>
+	</div>
+	<div id="orderID"></div>
+	<script type="text/javascript">
+			var num=Math.floor((Math.random() * 10000)+10000);
+			var alpha="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			var ch=alpha[Math.floor(Math.random()*alpha.length)];
+			var orderid=ch+num;
+			document.getElementById('orderID').innerHTML ="ORDER ID : " + orderid +
+			" . You can look up and track your order status through this id." ;
+	</script>
+<div id="outer">
+<a href="home.html"><button id="home" class="return" >
+	HOME
+</button></a>
+<a href="wmap.html"><button id="reorder" class="return">
+	RE-ORDER
+</button></a>
+</div>
+</body>
+</html>

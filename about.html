@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head><title>Know us well!</title>
+<style>
+html {
+  box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Calibri", Georgia, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff9900;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("/home/nishu/Desktop/foodtruck/images/tabletopfood.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: first;
+    animation-duration: 5s;
+}
+
+@keyframes first{
+  from{ opacity: 0; }
+  to{ opacity: 1; }
+}
+
+.textbox{
+    background-size: 50%;
+    background: rgba(115,115,115,0.5);
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 30px 20px;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  background-color: rgba(0,0,0,0.4);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #e6e6e6;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.copyright{
+  position: absolute;
+  bottom: 5px;
+  left:10px;
+  color:#ffb566;
+  font-size: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="bg">
+<div class="navbar">
+<ul>
+  <li><a href="navbar.html">Home</a></li>
+  <li><a href="twise.html">Order Now</a></li>
+  <li><a href="feedback.html">Give Feedback</a></li>
+  <li><a href="contact.html">Get to know us!</a></li>
+  <li style="float: right;"><a class="active" href="about.html">About Us</a></li>
+</ul>
+</div>
+<div class="textbox">
+  Contact Us!
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Vishwas" style="width:100%; border-radius: 50%;" >
+      <div class="container">
+        <h2>Vishwas Modhera</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Done B.Tech. at IIIT,Surat. Not a topper! Voila!</p>
+        <p>vishwas@oft.us</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Harshvardhan" style="width:100%">
+      <div class="container">
+        <h2>Harshvardhan Kumar</h2>
+        <p class="title">Art Director</p>
+        <p>Designer and </p>
+        <p>harsh@oft.us</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Divya" style="width:100%">
+      <div class="container">
+        <h2>Divya Shah</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>divya@oft.us</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<a href="aboutme.html"><center><button class="button">KNOW MORE</button></center></a>
+<div class="copyright">
+    <pre>&copy; Copyright :
+    http://www.hopechurch.net.nz/wp-content/uploads/2016/03/10227e-food-on-the-table-top-hd-wallpaper.jpg</pre>
+</div>
+</div>
+</body>
+</html>

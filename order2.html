@@ -1,0 +1,88 @@
+<!-- Confirming order; Entering address !-->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/home/nishu/Desktop/foodtruck/images/order2.css">
+	<title>Order Page</title>
+	<script type="text/javascript">
+	function valid()
+	{
+		var str=document.forms["orderf"]["street"].value;
+		var loc=document.forms["orderf"]["locality"].value;
+		var cn=document.forms["orderf"]["cn1"].value;
+		if(str=='' || loc=='')
+			{
+				alert("Street and Locality are Required!");
+				return false;
+			}
+			var l=cn.length;
+			if(cn=='' || l!=10)
+			{
+				alert("At least one valid contact number required");
+				return false;
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<div class="topnav" id="tpnav" >
+		KHAUgali
+		<a href="wmap.html">Order Now</a>
+		<a href="contact.html">Contact Us</a>
+		<a href="about.html">About Us</a>
+		<a id="log_in" href="login.html">Log In</a>
+	</div>
+	<div class="login">
+		<h2>Order</h1>
+			<form name="orderf"  onsubmit="return valid();" action="order3.html">
+				<table  align="center" cellspacing="10px" >
+					<tr>
+						<td align="left">
+							Street :
+						</td>
+						<td align="left">
+							<input class="phdr" placeholder="street" type="text" id="street">
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Locality :
+						</td>
+						<td>
+							<input class="phdr" placeholder="locality" type="text" id="locality">
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Landmark(if any) :
+						</td>
+						<td>
+							<input class="phdr" placeholder="landmark" type="text" id="landmark" >
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Contact Number1 :
+						</td>
+						<td align="left">
+							<input class="phdr" placeholder="cn1" type="number" id="cn1">
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Contact Number2 :
+						</td>
+						<td align="left">
+							<input class="phdr" placeholder="cn2" type="number" id="cn2">
+						</td>
+					</tr>
+			</table>
+
+			<button type="submit" >
+				Confirm Order
+			</button>
+		</form>
+	</div>
+	</body>
+</html>

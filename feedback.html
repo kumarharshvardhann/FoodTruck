@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css"	rel="stylesheet"	href="/home/nishu/Desktop/foodtruck/images/feedback.css" >
+	<title>Give Us Feedback</title>
+	<script type="text/javascript">
+		function appreciate(){
+			var person=getElementById('fname');
+			alert("Thanks "+person+" for this suggestion!");
+		}
+	</script>
+
+<body>
+
+
+<div class="bg">
+  <div class="navbar">
+<ul>
+  <li><a href="navbar.html">Home</a></li>
+  <li><a href="wmap.html">Order Now</a></li>
+  <li><a class="active" href="feedback.html">Give Feedback</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <li style="float: right;"><a href="about.html">About Us</a></li>
+</ul>
+</div>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name : </label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Please write your name here.">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="emailid">Email : </label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="emailid" name="emailid" placeholder="Provide us your email please!">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="ftype">Giving feedback on : </label>
+      </div>
+      <div class="col-75">
+        <select id="ftype" name="feedbacktype">
+          <option value="website">Website</option>
+          <option value="foodservice">Food Service</option>
+          <option value="foodmenu">Food Menu</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Suggestions : </label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Help us in making your experience become a better one! " style="height:200px"></textarea>
+      </div>
+    </div>
+    <div> </div>
+    <div class="c">
+      <input type="submit" name="submit" value="Submit" onclick="appreciate()">
+    </div>
+  </form>
+</div>
+
+<div class="copyright">
+    <pre>&copy; Copyright :
+    http://www.hopechurch.net.nz/wp-content/uploads/2016/03/10227e-food-on-the-table-top-hd-wallpaper.jpg</pre>
+</div>
+</div>
+
+</body>
+</html>
