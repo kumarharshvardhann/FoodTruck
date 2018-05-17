@@ -63,7 +63,7 @@ body{
 }
 
 #p3{
-  background-image: url("/divya.jpeg");
+  background-image: url("divya.jpeg");
   background-size: cover;
 
 }
