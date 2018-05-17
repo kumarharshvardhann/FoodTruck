@@ -1,5 +1,5 @@
 body{
-  background-image: url("/aboutme.jpg");
+  background-image: url("aboutme.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -53,12 +53,12 @@ body{
 }
 
 #p1{
-  background-image: url("/harsh.png");
+  background-image: url("harsh.png");
   background-size: cover;
 }
 
 #p2{
-  background-image: url("/vishvas.png");
+  background-image: url("vishvas.png");
   background-size: cover;
 }
 
