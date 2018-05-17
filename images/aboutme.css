@@ -1,5 +1,5 @@
 body{
-  background-image: url("/home/nishu/Desktop/Website-OFT/images/aboutme.jpg");
+  background-image: url("/aboutme.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -53,17 +53,17 @@ body{
 }
 
 #p1{
-  background-image: url("/home/nishu/Desktop/Website-OFT/images/harsh.png");
+  background-image: url("/harsh.png");
   background-size: cover;
 }
 
 #p2{
-  background-image: url("/home/nishu/Desktop/Website-OFT/images/vishvas.png");
+  background-image: url("/vishvas.png");
   background-size: cover;
 }
 
 #p3{
-  background-image: url("/home/nishu/Desktop/Website-OFT/images/divya.jpeg");
+  background-image: url("divya.jpeg");
   background-size: cover;
 
 }
