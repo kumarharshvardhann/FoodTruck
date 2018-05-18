@@ -1,4 +1,7 @@
-
+body{
+	background-image: url("map.jpg");
+	background-size: cover;
+}
  .topnav{
 	overflow: hidden;
 	background-color: white;
@@ -28,13 +31,6 @@
 	cursor: pointer;
 	color:  #ffffff;
 }
-
-
-body {
-	background-image: url("map.jpg");
-	background-size: cover;
-}
-
 div {
 	background-size:cover;
 }
