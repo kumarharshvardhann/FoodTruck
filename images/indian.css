@@ -20,8 +20,6 @@
 	font-size:50px;
 }
 
-
-
 #b{
 	width:33.33%;
 	height:68%;
@@ -32,8 +30,6 @@
 	overflow:visible;
 	font-size:50px;
 }
-
-
 
 #c{
 	width:33.33%;
@@ -46,8 +42,6 @@
 	font-size:50px;
 }
 
-
-
 #d{
 	width:33.33%;
 	height:68%;
@@ -55,12 +49,9 @@
 	background:#ff1a1a;
 	float:left;
 	margin-bottom:5px;
-
 	overflow:visible;
 	font-size:50px;
 }
-
-
 
 #e{
 	width:33.33%;
@@ -69,12 +60,9 @@
 	background:#ff3333;
 	float:left;
 	margin-bottom:5px;
-
 	overflow:visible;
 	font-size:50px;
 }
-
-
 
 #f{
 	width:33.33%;
@@ -83,12 +71,9 @@
 	background:#ff1a1a;
 	float:left;
 	margin-bottom:5px;
-
 	overflow:visible;
 	font-size:50px;
 }
-
-
 
 #g{
 	width:33.33%;
@@ -101,8 +86,6 @@
 	font-size:50px;
 }
 
-
-
 #h{
 	width:33.33%;
 	height:68%;
@@ -113,8 +96,6 @@
 	overflow:visible;
 	font-size:50px;
 }
-
-
 
 #i{
 	width:33.33%;
@@ -127,7 +108,6 @@
 	font-size:50px;
 }
 
-
 #caption{
 		text-align:center;
 		font-size:30px;
@@ -136,7 +116,7 @@
 	}
 
 #photo1{
-		background:url("/home/nishu/Desktop/foodtruck/images/img19.png");
+		background:url("img19.png");
 background-repeat:no-repeat;		width:50%;
 		height:45%;
 		background-size:100%;
@@ -144,7 +124,7 @@ background-repeat:no-repeat;		width:50%;
 	}
 
 #photo2{
-		background:url("/home/nishu/Desktop/foodtruck/images/img20.png");
+		background:url("img20.png");
 background-repeat:no-repeat;		width:50%;
 		height:45%;
 		background-size:100%;
@@ -152,15 +132,16 @@ background-repeat:no-repeat;		width:50%;
 	}
 
 #photo3{
-		background:url("/home/nishu/Desktop/foodtruck/images/img21.png");background-repeat:no-repeat;
+		background:url("img21.png");background-repeat:no-repeat;
 		width:50%;
+	
 		height:45%;
 		background-size:100%;
 		margin:4% 24%;
 	}
 
 #photo4{
-		background:url("/home/nishu/Desktop/foodtruck/images/img22.png");background-repeat:no-repeat;
+		background:url("img22.png");background-repeat:no-repeat;
 		width:50%;
 		height:45%;
 		background-size:100%;
@@ -168,7 +149,7 @@ background-repeat:no-repeat;		width:50%;
 	}
 
 #photo5{
-		background:url("/home/nishu/Desktop/foodtruck/images/img23.png");background-repeat:no-repeat;
+		background:url("img23.png");background-repeat:no-repeat;
 		width:50%;
 		height:45%;
 		background-size:100%;
@@ -176,7 +157,7 @@ background-repeat:no-repeat;		width:50%;
 	}
 
 #photo6{
-		background:url("/home/nishu/Desktop/foodtruck/images/img24.jpg");background-repeat:no-repeat;
+		background:url("img24.jpg");background-repeat:no-repeat;
 		width:50%;
 		height:45%;
 		background-size:100%;
@@ -184,7 +165,7 @@ background-repeat:no-repeat;		width:50%;
 	}
 
 #photo7{
-		background:url("/home/nishu/Desktop/foodtruck/images/img7.jpg");
+		background:url("img7.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
@@ -192,7 +173,7 @@ background-repeat:no-repeat;		width:50%;
 	}
 
 #photo8{
-		background:url("/home/nishu/Desktop/foodtruck/images/img8.jpg");
+		background:url("img8.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
@@ -200,7 +181,7 @@ background-repeat:no-repeat;		width:50%;
 	}
 
 #photo9{
-		background:url("/home/nishu/Desktop/foodtruck/images/img9.jpg");
+		background:url("img9.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
