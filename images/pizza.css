@@ -136,7 +136,7 @@
 	}
 
 #photo1{
-		background:url(img1.jpg);
+		background:url("img1.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
@@ -144,7 +144,7 @@
 	}
 
 #photo2{
-		background:url(img2.jpg);
+		background:url("img2.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
@@ -152,7 +152,7 @@
 	}
 
 #photo3{
-		background:url(img3.jpg);
+		background:url("img3.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
@@ -160,7 +160,7 @@
 	}
 
 #photo4{
-		background:url(img4.jpg);
+		background:url("img4.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
@@ -168,7 +168,7 @@
 	}
 
 #photo5{
-		background:url(img5.jpg);
+		background:url("img5.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
@@ -176,7 +176,7 @@
 	}
 
 #photo6{
-		background:url(img6.jpg);
+		background:url("img6.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
@@ -184,7 +184,7 @@
 	}
 
 #photo7{
-		background:url(img7.jpg);
+		background:url("img7.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
@@ -192,7 +192,7 @@
 	}
 
 #photo8{
-		background:url(img8.jpg);
+		background:url("img8.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
@@ -200,7 +200,7 @@
 	}
 
 #photo9{
-		background:url(img9.jpg);
+		background:url("img9.jpg");
 		width:50%;
 		height:50%;
 		background-size:100%;
