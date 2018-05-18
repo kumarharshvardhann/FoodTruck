@@ -41,7 +41,7 @@ body, html {
 }
 
 .bg {
-    background-image: url("/tabletopfood.jpg");
+    background-image: url("tabletopfood.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
